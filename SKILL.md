@@ -1,3 +1,8 @@
+---
+name: agenthub-news-skill
+description: 使用 AgentHub 开放接口获取聚合资讯流，并提供技能描述与 OpenAPI 获取能力。
+---
+
 # AgentHub 资讯 Skill
 
 用于通过 AgentHub 开放接口获取聚合资讯流。
@@ -37,4 +42,3 @@ node src/cli.js feed --summary --maxItems 10
   - `x-api-nonce`
 - 签名串格式：
   - `${timestamp}.${nonce}.${method}.${pathWithQuery}.${bodySha256}`
-
